@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-permalink: /
+permalink: http://anilkmirge.github.io/
 ---
 
 # Anil Mirge
