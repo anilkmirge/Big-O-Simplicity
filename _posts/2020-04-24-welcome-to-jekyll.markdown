@@ -5,6 +5,8 @@ date: 2020-04-24 23:46:42 -0400
 categories: jekyll update
 ---
 
+{% include breadcrumbs.html %}
+
 In this post, we will discuss slightly boring yet very important concept in Computer Science called `Big O Notation!`
 
 I chose this topic as my very first personal blog because I was never satisfied with the way I understood `Big O` at least in a way that I could explain to a child in a digestible manner.
@@ -52,4 +54,5 @@ function sumAll(n) {
   return result;
 }
 ```
-In this algorithm, we can see that there are at least n additions and assignments inside the for loop where we add first `result + 1` and then assign `result = `result + 1. And there are other operations like `int i = 0; i < n; i++`, plus one more outside the for loop like `result = 0`. Even if we ignore operations outside the for loop, we can see that the number of operations inside the loop directly depends on the size of n. In other words, there are at least n operations for the input of size n. Hence this is a linear time complexity as the number of operations linearly increases with the value of n.
+
+In this algorithm, we can see that there are at least n additions and assignments inside the for loop where we add first `result + 1` and then assign `result =`result + 1. And there are other operations like `int i = 0; i < n; i++`, plus one more outside the for loop like `result = 0`. Even if we ignore operations outside the for loop, we can see that the number of operations inside the loop directly depends on the size of n. In other words, there are at least n operations for the input of size n. Hence this is a linear time complexity as the number of operations linearly increases with the value of n.
