@@ -1,3 +1,5 @@
 ---
-permalink: [Home](https://anilkmirge.github.io/)
+home: https://anilkmirge.github.io/
 ---
+
+<a href="{{page.home}}">Home</a>
