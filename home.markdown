@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Home
+permalink: /home/
 home: https://anilkmirge.github.io/
 ---
 
