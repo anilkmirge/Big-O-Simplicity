@@ -6,4 +6,4 @@ layout: home
 home: https://anilkmirge.github.io/
 ---
 
-<a href="{{page.home}}"><h1>Home</h1></a>
+<h1><a href="{{page.home}}">Home</a></h1>
