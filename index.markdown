@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-home: https://anilkmirge.github.io/
 ---
 
-<h1><a href="{{page.home}}">Home</a></h1>
+{% include breadcrumbs.html %}
+
