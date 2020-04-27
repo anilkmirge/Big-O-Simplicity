@@ -2,6 +2,7 @@
 layout: post
 title: 'Big O Notation!'
 date: 2020-04-24 23:46:42 -0400
+categories: jekyll update
 ---
 
 {% include breadcrumbs.html %}
