@@ -5,8 +5,6 @@ date: 2020-04-24 23:46:42 -0400
 categories: jekyll update
 ---
 
-{% include breadcrumbs.html %}
-
 In this post, we will discuss slightly boring yet very important concept in Computer Science called `Big O Notation!`
 
 I chose this topic as my very first personal blog because I was never satisfied with the way I understood `Big O` at least in a way that I could explain to a child in a digestible manner.
